@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/codeforces_helper/static/css/main.525a3617.css",
+    "main.js": "/codeforces_helper/static/js/main.e8e91da7.js",
+    "static/js/787.e3e806cc.chunk.js": "/codeforces_helper/static/js/787.e3e806cc.chunk.js",
+    "static/media/pxfuel.jpg": "/codeforces_helper/static/media/pxfuel.581fa7ac54b5e4f32515.jpg",
+    "static/media/puzzle.ico": "/codeforces_helper/static/media/puzzle.ba040e375cb8d7da548a.ico",
+    "index.html": "/codeforces_helper/index.html",
+    "main.525a3617.css.map": "/codeforces_helper/static/css/main.525a3617.css.map",
+    "main.e8e91da7.js.map": "/codeforces_helper/static/js/main.e8e91da7.js.map",
+    "787.e3e806cc.chunk.js.map": "/codeforces_helper/static/js/787.e3e806cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525a3617.css",
+    "static/js/main.e8e91da7.js"
+  ]
+}
