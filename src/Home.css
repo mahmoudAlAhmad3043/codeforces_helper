@@ -1,0 +1,163 @@
+
+
+
+
+.Home{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    grid-template-rows:  70px 1fr;
+    grid-template-areas: 'sidebar header header header' 'sidebar contents contents contents';
+    height: 100dvh;
+}
+
+/* Header */
+
+.header{
+    grid-area: header;
+    position: fixed;
+    z-index: 2;
+    left:260px;
+    width: calc(100% - 260px);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    min-width: 150px;
+    width: 65%; 
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+/* End Header */
+
+/* Sidebar */
+
+.sidebar{
+    grid-area: sidebar;
+    height: 100%;
+    overflow-y: auto; 
+    position: absolute;
+    z-index: 10;
+}
+.sidebar_show{
+    width: 260px;
+}
+
+.sidebar_hidden{
+    width: 0px;
+}
+.sidebar_header{
+    width:260px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_puzzle{
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.sidebar_list {
+    margin-top: 70px;
+}
+.list_item{
+
+}
+
+
+.title{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+.open{
+    height: auto;
+}
+
+.close{
+    overflow: hidden;
+    height: 0px;
+}
+
+.item{
+    width: 100%;
+    text-align: start;
+    padding-left: 20px;
+    display:flex;
+    align-items: center;
+}
+
+
+/* End Sidebar */
+
+/* Contents */
+
+.main{
+    grid-area: contents;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    align-content: flex-start;
+}
+
+.open-filter{
+    right: 0px;
+}
+.filter{
+    position: absolute;
+    top: 55px;
+    margin-right: 0;
+}
+
+.clos-filter{
+    right: -240px;
+}
+
+.problem{
+    margin:5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    height: fit-content;
+}
+.contest{
+    margin:5px;
+    padding: 5px;
+    display: grid;
+    /* flex-direction: column; */
+    border-radius: 7px;
+    height:145px;
+}
+
+
+/* End Contents */
+
+.disable-pointer{
+    pointer-events: none;
+    filter: brightness(40%);
+}
+
