@@ -2,7 +2,7 @@
   "name": "codeforces_helper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mahmoudAlAhmad3043.github.io/codeforces_helper",
+  "homepage": "http://mahmoudAlAhmad3043.github.io/codeforces_helper",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
