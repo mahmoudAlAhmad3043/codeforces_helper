@@ -15,13 +15,13 @@ const router = createBrowserRouter([
     element:<App/>
   },
   {
-    path:'/home',
+    path:'/codeforces_helper/home',
     element: <Home/>
   },{
-    path:'/login',
+    path:'/codeforces_helper/login',
     element:<Login/>
   },{
-    path:'/error',
+    path:'/codeforces_helper/error',
     element:<Error_Page />
   }
 ])
